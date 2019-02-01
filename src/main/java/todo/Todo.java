@@ -10,18 +10,6 @@ import javax.persistence.Table;
 
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
-/*
- * @Entity: Specifies that the class is an entity. An entity is...
- * 
- * @Table: ...
- * 
- * @EntityListeners: ...
- * 
- * @Id: ...
- * 
- * @GeneratedValue: ...
- */
-
 @Entity
 @Table(name = "todos")
 @EntityListeners(AuditingEntityListener.class)
@@ -40,7 +28,7 @@ public class Todo {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
+
 	// Getter and Setter for 'id'
 	public long getId() {
 		return id;
