@@ -1,4 +1,4 @@
-package com.javatodoapi.javatodoapi;
+package com.javatodoapi.javatodoapi.todo;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

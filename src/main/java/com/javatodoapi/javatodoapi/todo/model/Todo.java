@@ -1,4 +1,4 @@
-package todo;
+package com.javatodoapi.javatodoapi.todo.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
